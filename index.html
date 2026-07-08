@@ -1,0 +1,288 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transformarte | Vive una experiencia que transforma</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f7faf7;
+            color: #1f2d24;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0f7b3f, #19a85b);
+            color: white;
+            padding: 70px 20px;
+            text-align: center;
+        }
+
+            header h1 {
+                font-size: 42px;
+                margin-bottom: 15px;
+            }
+
+            header p {
+                font-size: 20px;
+                max-width: 750px;
+                margin: auto;
+            }
+
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            background: #ffffff;
+            color: #0f7b3f;
+            padding: 15px 28px;
+            border-radius: 40px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+            .btn:hover {
+                transform: scale(1.05);
+                background: #eaffef;
+            }
+
+        section {
+            padding: 60px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: #0f7b3f;
+        }
+
+        .intro {
+            text-align: center;
+            max-width: 800px;
+            margin: auto;
+            font-size: 18px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 25px;
+            margin-top: 40px;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 18px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+
+            .card h3 {
+                color: #0f7b3f;
+                margin-bottom: 12px;
+                font-size: 24px;
+            }
+
+        .highlight {
+            background: #e8fff0;
+            border-left: 6px solid #19a85b;
+            padding: 30px;
+            border-radius: 15px;
+            margin-top: 35px;
+            text-align: center;
+        }
+
+        .steps {
+            counter-reset: step;
+            margin-top: 35px;
+        }
+
+        .step {
+            background: white;
+            padding: 25px;
+            margin-bottom: 15px;
+            border-radius: 15px;
+            box-shadow: 0 8px 18px rgba(0,0,0,0.06);
+        }
+
+            .step strong {
+                color: #0f7b3f;
+            }
+
+        .cta {
+            background: #0f7b3f;
+            color: white;
+            text-align: center;
+            padding: 70px 20px;
+            border-radius: 25px;
+            margin: 40px 20px;
+        }
+
+            .cta h2 {
+                font-size: 34px;
+                margin-bottom: 15px;
+            }
+
+            .cta p {
+                max-width: 700px;
+                margin: auto;
+                font-size: 18px;
+            }
+
+            .cta .btn {
+                background: white;
+                color: #0f7b3f;
+            }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #102d1d;
+            color: white;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 32px;
+            }
+
+            header p {
+                font-size: 18px;
+            }
+
+            .section-title {
+                font-size: 27px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Transformarte: despierta, crece y renueva tu vida</h1>
+        <p>
+            Una experiencia de crecimiento personal diseñada para ayudarte a mirar hacia dentro,
+            romper límites y conectar con una versión más auténtica de ti.
+        </p>
+        <a href="#registro" class="btn">Quiero vivir la experiencia</a>
+    </header>
+
+    <section>
+        <h2 class="section-title">¿Qué es Transformarte?</h2>
+        <p class="intro">
+            Transformarte es un espacio vivencial donde las personas trabajan su liderazgo,
+            autoestima, comunicación, relaciones, propósito y crecimiento personal.
+            No es solo un taller: es una experiencia que se vive, se siente y se recuerda.
+        </p>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Despertarte</h3>
+                <p>
+                    El primer paso para abrir los ojos, reconocer patrones, conectar contigo
+                    y descubrir nuevas posibilidades para tu vida.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Renovarte</h3>
+                <p>
+                    Una experiencia más profunda para soltar cargas, fortalecer tu liderazgo
+                    personal y comprometerte con tu transformación.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Noche de Invitados</h3>
+                <p>
+                    Un encuentro libre de costo donde puedes conocer el programa, vivir una muestra
+                    de la experiencia y decidir si este proceso es para ti.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="section-title">Esto es para ti si...</h2>
+
+        <div class="steps">
+            <div class="step">
+                <strong>✓</strong> Sientes que estás listo para un cambio, pero no sabes por dónde empezar.
+            </div>
+            <div class="step">
+                <strong>✓</strong> Quieres mejorar tu forma de relacionarte contigo y con los demás.
+            </div>
+            <div class="step">
+                <strong>✓</strong> Deseas fortalecer tu confianza, liderazgo y comunicación.
+            </div>
+            <div class="step">
+                <strong>✓</strong> Buscas una comunidad que te impulse a crecer.
+            </div>
+            <div class="step">
+                <strong>✓</strong> Quieres vivir una experiencia diferente, humana y transformadora.
+            </div>
+        </div>
+
+        <div class="highlight">
+            <h3>Empieza sin compromiso</h3>
+            <p>
+                Puedes asistir primero a una Noche de Invitados totalmente gratis.
+                Conoce el ambiente, escucha testimonios y descubre si Transformarte es el próximo paso para ti.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="section-title">¿Qué puedes llevarte?</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Claridad</h3>
+                <p>Identificar qué quieres cambiar y qué decisiones necesitas tomar.</p>
+            </div>
+
+            <div class="card">
+                <h3>Conexión</h3>
+                <p>Relacionarte desde un lugar más honesto, abierto y consciente.</p>
+            </div>
+
+            <div class="card">
+                <h3>Acción</h3>
+                <p>Salir con compromisos concretos para tu vida personal y emocional.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta" id="registro">
+        <h2>Da el primer paso hacia tu transformación</h2>
+        <p>
+            Inscríbete a la próxima Noche de Invitados o reserva tu espacio para el programa.
+            A veces, una sola decisión puede abrir una nueva etapa en tu vida.
+        </p>
+
+        <a href="https://wa.me/18090000000?text=Hola,%20quiero%20más%20información%20sobre%20Transformarte"
+           class="btn">
+            Escribir por WhatsApp
+        </a>
+    </section>
+
+    <footer>
+        Transformarte © 2026 | Despertarte · Renovarte · Noche de Invitados
+    </footer>
+
+</body>
+</html>
